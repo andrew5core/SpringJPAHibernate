@@ -86,6 +86,7 @@ public class AppController {
             result.addError(ssoError);
             return "registration";
         }
+        //
          
         userService.saveUser(user);
  
